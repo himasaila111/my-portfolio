@@ -1,0 +1,34 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "skills/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "skills/css.png"
+    },
+    {
+      "title": "JavaScript",
+      "imageSrc": "skills/javascript.png"
+    },
+    {
+      "title": "ReactJS",
+      "imageSrc": "skills/react.png"
+    },
+    {
+      "title": "NodeJS",
+      "imageSrc": "skills/node.png"
+    },
+    {
+      "title": "ExpressJS",
+      "imageSrc": "skills/express.png"
+    },
+    {
+      "title": "GraphQL",
+      "imageSrc": "skills/graphql.png"
+    },
+    {
+      "title": "MongoDB",
+      "imageSrc": "skills/mongodb.png"
+    }
+  ]
