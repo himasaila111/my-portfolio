@@ -1,34 +1,34 @@
 [
     {
       "title": "HTML",
-      "imageSrc": "/my-portfolio/src/assets/skills/html.png"
+      "imageSrc": "skills/html.png"
     },
     {
       "title": "CSS",
-      "imageSrc": "/my-portfolio/src/assets/skills/css.png"
+      "imageSrc": "skills/css.png"
     },
     {
       "title": "JavaScript",
-      "imageSrc": "/my-portfolio/src/assets/skills/javascript.png"
+      "imageSrc": "skills/javascript.png"
     },
     {
       "title": "ReactJS",
-      "imageSrc": "/my-portfolio/src/assets/skills/react.png"
+      "imageSrc": "skills/react.png"
     },
     {
       "title": "NodeJS",
-      "imageSrc": "/my-portfolio/src/assets/skills/node.png"
+      "imageSrc": "skills/node.png"
     },
     {
       "title": "ExpressJS",
-      "imageSrc": "/my-portfolio/src/assets/skills/express.png"
+      "imageSrc": "skills/express.png"
     },
     {
       "title": "GraphQL",
-      "imageSrc": "/my-portfolio/src/assets/skills/graphql.png"
+      "imageSrc": "skills/graphql.png"
     },
     {
       "title": "MongoDB",
-      "imageSrc": "/my-portfolio/src/assets/skills/mongodb.png"
+      "imageSrc": "skills/mongodb.png"
     }
   ]
