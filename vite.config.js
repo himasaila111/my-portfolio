@@ -12,5 +12,5 @@ export default defineConfig({
   build: {
     outDir: 'dist'
   },
-  base: '/himasaila'
+  base: '/my-portfolio'
 })
