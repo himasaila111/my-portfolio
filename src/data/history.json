@@ -1,14 +1,14 @@
 [
     {
       "role": "Sr.Software Engineer",
-      "organisation": "Technovert solutions",
+      "organisation": "Guardian Group",
       "startDate": "Dec, 2022",
       "endDate": "Dec, 2023",
       "experiences": ["Developed New UI for their new Region.", "Implemented user experience by 30% by introducing a new single-sign on method."]
     },
     {
       "role": "Project Engineer",
-      "organisation": "Wipro Technologies",
+      "organisation": "LLoyd's Banking Group",
       "startDate": "Feb, 2020",
       "endDate": "Dec, 2022",
       "experiences": ["Migrated around 90+ microservices from loopback to node js.", "Improved application security by 50%.", "Developed accessibility features to the whole application."]
