@@ -1,4 +1,5 @@
 import styles from "./Contact.module.css";
+import { getImageUrl } from "../../utils";
 
 export const Contact = () => {
   return (
@@ -9,18 +10,18 @@ export const Contact = () => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src={"/my-portfolio/src/assets/contact/emailIcon.png"} alt="Email icon" />
+          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
           <a href="mailto:myemail@email.com">himasaila24@email.com</a>
         </li>
         <li className={styles.link}>
           <img
-            src={"/my-portfolio/src/assets/contact/linkedinIcon.png"}
+            src={getImageUrl("contact/linkedinIcon.png")}
             alt="LinkedIn icon"
           />
           <a href="https://www.linkedin.com/in/himasaila-gonugunta/">himasailagonugunta</a>
         </li>
         <li className={styles.link}>
-          <img src={"/my-portfolio/src/assets/contact/githubIcon.png"} alt="Github icon" />
+          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
           <a href="https://github.com/himasaila111">himasaila111</a>
         </li>
       </ul>

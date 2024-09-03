@@ -1,4 +1,5 @@
 import styles from "./Hero.module.css";
+import { getImageUrl } from "../../utils";
 
 export const Hero = () => {
   return (
@@ -11,14 +12,14 @@ export const Hero = () => {
         </p>
         <div className = {styles.contact}>
         <a href="https://docs.google.com/document/d/1mOnGcrwroEF1tbq8tapcx3QwfSPzOUN2/edit?usp=sharing&ouid=113168555433019007332&rtpof=true&sd=true" target="_blank"><button className={styles.cvBtn}>Find My CV</button></a>
-        <a href="mailto:himasaila24@email.com" target="_blank"><img src={"/my-portfolio/src/assets/hero/email.png"} alt="gmail" className={styles.gmail}></img></a>
-        <a href="https://www.linkedin.com/in/himasaila-gonugunta/" target="_blank"><img src={"/my-portfolio/src/assets/hero/linkedin.png"} alt="linkedin" className={styles.linkedin}></img></a>
-        <a href="https://github.com/himasaila111" target="_blank"><img src={"/my-portfolio/src/assets/hero/github.png"} alt="Github" className={styles.github}></img></a>
-        <a href="https://docs.google.com/document/d/1mOnGcrwroEF1tbq8tapcx3QwfSPzOUN2/edit?usp=sharing&ouid=113168555433019007332&rtpof=true&sd=true" target="_blank"><img src={"/my-portfolio/src/assets/hero/resume.png"} alt="resume" className={styles.resume}></img></a>
+        <a href="mailto:himasaila24@email.com" target="_blank"><img src={getImageUrl("hero/email.png")} alt="gmail" className={styles.gmail}></img></a>
+        <a href="https://www.linkedin.com/in/himasaila-gonugunta/" target="_blank"><img src={getImageUrl("hero/linkedin.png")} alt="linkedin" className={styles.linkedin}></img></a>
+        <a href="https://github.com/himasaila111" target="_blank"><img src={getImageUrl("hero/github.png")} alt="Github" className={styles.github}></img></a>
+        <a href="https://docs.google.com/document/d/1mOnGcrwroEF1tbq8tapcx3QwfSPzOUN2/edit?usp=sharing&ouid=113168555433019007332&rtpof=true&sd=true" target="_blank"><img src={getImageUrl("hero/resume.png")} alt="resume" className={styles.resume}></img></a>
         </div>
       </div>
       <img
-        src={"/my-portfolio/src/assets/hero/heroImage.png"}
+        src={getImageUrl("hero/heroImage.png")}
         alt="Hero image of me"
         className={styles.heroImg}
       />
